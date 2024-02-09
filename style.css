@@ -152,7 +152,7 @@ header nav ul li #homenav {
 }
 #home {
   width: 85%;
-  max-height: 100vh;
+  max-height: 120vh;
   margin: auto;
 }
 .home-hero {
@@ -365,7 +365,7 @@ header nav ul li #homenav {
     display: none;
   }
   .left-content{
-    width: 100%;
+    width: 85%;
     justify-content: center;
   }
   .work-container{
