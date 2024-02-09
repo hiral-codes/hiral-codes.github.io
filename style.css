@@ -375,6 +375,10 @@ header nav ul li #homenav {
   .right-content{
     justify-content: center;
   }
+  .box{
+    width: 350px;
+    height: 350px;
+  }
   #intro {
     width: 100%;
     padding-inline: 1rem;
