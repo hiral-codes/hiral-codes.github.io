@@ -365,14 +365,10 @@ header nav ul li #homenav {
     display: none;
   }
   .left-content{
-    width: 70%;
-    padding: 2rem;
-    margin: auto;
+    width: 100%;
     justify-content: center;
   }
   .work-container{
-    width: 70%;
-    margin: auto;
     flex-direction: column;
     justify-content: center;
   }
