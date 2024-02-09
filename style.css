@@ -366,10 +366,13 @@ header nav ul li #homenav {
   }
   .left-content{
     width: 70%;
+    padding: 2rem;
     margin: auto;
     justify-content: center;
   }
   .work-container{
+    width: 70%;
+    margin: auto;
     flex-direction: column;
     justify-content: center;
   }
