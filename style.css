@@ -343,7 +343,7 @@ header nav ul li #homenav {
   background-color: rgba(255, 166, 0, 0.623);
 }
 .box:nth-child(3){
-  background-color: aquamarine;
+  background: none;
 }
 #mywork{
   border: none;
