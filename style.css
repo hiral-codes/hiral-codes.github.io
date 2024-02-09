@@ -365,7 +365,8 @@ header nav ul li #homenav {
     display: none;
   }
   .left-content{
-    width: 85%;
+    width: 70%;
+    margin: auto;
     justify-content: center;
   }
   .work-container{
