@@ -280,7 +280,7 @@ header nav ul li #homenav {
 }
 .sub-2{
   padding-top: 50px;
-  padding-bottom: 25px;
+  padding-bottom: 0px;
   font-size: 2rem;
 }
 .designing-container{
@@ -352,7 +352,7 @@ header nav ul li #homenav {
   padding: 10px;
 }
 #mywork img{
-  width: 180px;
+  width: 150px;
 }
 
 /* Skills */
@@ -368,11 +368,12 @@ header nav ul li #homenav {
     display: none;
   }
   .left-content{
-    width: 100%;
+    width: 85%;
+    margin: auto;
     justify-content: center;
   }
   #worksamples{
-    width: 70%;
+    width: 85%;
     margin: auto;
   }
   .sub-head{
@@ -392,8 +393,8 @@ header nav ul li #homenav {
     justify-content: center;
   }
   .box{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
   }
   #intro {
     width: 100%;
@@ -429,5 +430,17 @@ header nav ul li #homenav {
     line-height: 30px;
     padding-top: 25px;
     padding-inline: 1rem;
+  }
+  #hi{
+    padding: 0;
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  #dres{
+    padding: 0;
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
   }
 }
