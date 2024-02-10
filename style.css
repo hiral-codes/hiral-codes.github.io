@@ -167,7 +167,7 @@ header nav ul li #homenav {
   gap: 10px;
   padding: 10px;
   font-weight: 600;
-  box-shadow: 0 2px 150px 5px #ff676cc6;
+  box-shadow: 0 2px 150px 5px rgba(32, 35, 161, 0.692);
   background-color: #f6f6f6;
   border-radius: 10px;
   cursor: pointer;
