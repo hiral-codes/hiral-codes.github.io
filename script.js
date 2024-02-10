@@ -29,5 +29,5 @@ function downloadresume(){
   document.getElementById("resume-d").click();
 }
 function gotogithub(){
-  document.getElementById("github-link").click();
+  document.getElementById("github").click();
 }
