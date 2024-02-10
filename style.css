@@ -1,19 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Lobster&family=Ubuntu&display=swap");
 @font-face {
   font-family: "Gilroy";
-  src: url("./Assets/Gilroy-Regular.ttf");
+  src: url("./Assets/Gilroy-Regular.woff2");
 }
 @font-face {
   font-family: "Gilroy-Bold";
-  src: url("./Assets/Gilroy-Bold.ttf");
-}
-@font-face {
-  font-family: "Gilroy-Thin";
-  src: url("./Assets/Gilroy-Thin.ttf");
+  src: url("./Assets/Gilroy-Bold.woff2");
 }
 @font-face {
   font-family: "Gilroy-Medium";
-  src: url("./Assets/Gilroy-Medium.ttf");
+  src: url("./Assets/Gilroy-Medium.woff2");
 }
 * {
   margin: 0;
@@ -416,6 +412,7 @@ header nav ul li #homenav {
     background-position: left
   }
 }
+
 @media (max-width: 700px) {
   header nav {
     display: none;
