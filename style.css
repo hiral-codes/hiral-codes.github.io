@@ -369,13 +369,23 @@ header nav ul li #homenav {
   margin: auto;
   max-height: fit-content;
   padding: 25px 0px;
+  text-align: center;
+
   /* background-color: #40bbe0; */
 }
 
 #about-desc{
-  font-family: 'Gilroy';
+  font-family: 'Gilroy-Bold';
   font-size: 1.3rem;
-  font-weight: 400;
+  font-weight: 100;
+  text-align: center;
+}
+.p-0{
+  padding: 0;
+}
+.opacity-5{
+  opacity: 0.8;
+  line-height: 1.5;
 }
 @media (max-width: 700px) {
   header nav {
