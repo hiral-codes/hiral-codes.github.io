@@ -374,19 +374,7 @@ header nav ul li #homenav {
   /* background-color: #40bbe0; */
 }
 
-#about-desc{
-  font-family: 'Gilroy-Bold';
-  font-size: 1.3rem;
-  font-weight: 100;
-  text-align: center;
-}
-.p-0{
-  padding: 0;
-}
-.opacity-5{
-  opacity: 0.8;
-  line-height: 1.5;
-}
+
 #letsconnect{
   width: 85%;
   margin: auto;
