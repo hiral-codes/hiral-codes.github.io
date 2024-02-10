@@ -152,7 +152,7 @@ header nav ul li #homenav {
 }
 #home {
   width: 85%;
-  max-height: 120vh;
+  max-height: fit-content;
   margin: auto;
 }
 .home-hero {
@@ -275,11 +275,10 @@ header nav ul li #homenav {
   background-color: black;
 }
 .sub-head{
-  padding-top: 25px;
+  padding: 25px 0px;
   font-size: 3rem;
 }
 .sub-2{
-  padding-top: 50px;
   padding-bottom: 0px;
   font-size: 2rem;
 }
