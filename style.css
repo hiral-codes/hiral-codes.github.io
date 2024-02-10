@@ -270,7 +270,7 @@ header nav ul li #homenav {
   font-size: 1.3rem;
 }
 .line{
-  width: 85px;
+  width: 55px;
   height: 3.5px;
   background-color: black;
 }
@@ -361,6 +361,21 @@ header nav ul li #homenav {
   max-height: fit-content;
   padding: 25px 0px;
 
+}
+
+/* About me */
+#aboutme{
+  width: 85%;
+  margin: auto;
+  max-height: fit-content;
+  padding: 25px 0px;
+  /* background-color: #40bbe0; */
+}
+
+#about-desc{
+  font-family: 'Gilroy';
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 @media (max-width: 700px) {
   header nav {
