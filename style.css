@@ -387,6 +387,11 @@ header nav ul li #homenav {
   opacity: 0.8;
   line-height: 1.5;
 }
+#letsconnect{
+  width: 85%;
+  margin: auto;
+  height: 100vh;
+}
 @media (max-width: 700px) {
   header nav {
     display: none;
