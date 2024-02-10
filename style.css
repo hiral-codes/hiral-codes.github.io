@@ -374,7 +374,7 @@ header nav ul li #homenav {
 #letsconnect{
   width: 85%;
   margin: auto;
-  height: 100vh;
+  max-height: 100vh;
 }
 
 .loader-container{
