@@ -1,3 +1,9 @@
+function contentLoaded() {
+  var loaderContainer = document.querySelector('.loader-container');
+  loaderContainer.style.display = 'none';
+}
+window.addEventListener('load', contentLoaded);
+
 function sidebarHandler(){
   document.addEventListener("DOMContentLoaded", function () {
     const menuIcon = document.querySelector("#menubar");
