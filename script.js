@@ -40,7 +40,7 @@ function gotogithub(){
 
 function sendEmail() {
   // Initialize EmailJS with your user ID
-  emailjs.init("hiralpatel160302@gmail.com");
+  emailjs.init("hiralcodes@gmail.com");
   
   // Get form elements
   var name = document.getElementById('name').value;
