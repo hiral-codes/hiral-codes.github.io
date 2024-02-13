@@ -37,3 +37,26 @@ function downloadresume(){
 function gotogithub(){
   document.getElementById("github").click();
 }
+
+function sendEmail() {
+  // Initialize EmailJS with your user ID
+  emailjs.init("hiralpatel160302@gmail.com");
+  
+  // Get form elements
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+  var message = document.getElementById('message').value;
+
+  // Send email using EmailJS
+  emailjs.send("gmail", "template_onz3rle", {
+      from_name: name,
+      reply_to: email,
+      message: message
+  }).then(function(response) {
+      console.log("Email sent successfully", response);
+      alert("Email sent successfully!");
+  }, function(error) {
+      console.error("Email sending failed", error);
+      alert("Email sending failed!");
+  });
+}
