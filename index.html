@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="Assets/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="Assets/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <title>Portfolio | Hiral Patel</title>
   <link rel="stylesheet" href="style.css" />
@@ -46,7 +47,7 @@
           <li><a href="#" id="homenav">Home</a></li>
           <li><a href="#worksamples">Work Samples</a></li>
           <li><a id="resume-d" href="https://drive.google.com/uc?export=download&id=1Bf4YWavQ2KdmmZEjowGbxd-btEszcP6j
-            " id="resume">Download Resume</a></li>
+            " id="resume" data-aos="fade-in">Download Resume</a></li>
           <li>
             <a href="https://www.github.com/hiral-codes" id="github"><img style="width: 33px" src="./Assets/github.svg" alt="" />See
               Github</a>
@@ -62,7 +63,7 @@
     <!-- Home Section -->
     <section id="home">
       <div class="home-hero">
-        <div class="design-container">
+        <div class="design-container" data-aos="zoom-in">
           <div id="design">Design</div>
           <div id="code">&lt;/&gt; Code</div>
         </div>
@@ -80,8 +81,8 @@
           interfaces.</span>
       </p>
       <div class="buttons-container">
-        <button id="hi">Say Hello👋</button>
-        <button id="dres" onclick="downloadresume()">
+        <button data-aos="fade-right" id="hi">Say Hello👋</button>
+        <button data-aos="fade-left" id="dres" onclick="downloadresume()">
           Get Resume
           <img style="width: 12px" src="./Assets/download.svg" alt="" />
         </button>
@@ -91,7 +92,7 @@
 
     <!-- Main Image -->
     <div class="main-image">
-      <img src="./Assets/main.png" alt="" />
+      <img data-aos="zoom-in-right" src="./Assets/main.png" alt="" />
     </div>
     <!-- Main Image Ends Here -->
 
@@ -110,16 +111,16 @@
       <!-- Work Samples Images -->
       <div class="work-container">
         <div class="left-content">
-          <div class="box">
+          <div class="box" data-aos="fade-right">
             <img src="./Assets/Images/spoo blu.png" alt="" />
           </div>
-          <div class="box">
+          <div class="box" data-aos="fade-left">
             <img src="./Assets/Images/Desktop - 1.png" alt="" />
           </div>
-          <div class="box">
+          <div class="box" data-aos="fade-right">
             <img src="./Assets/Images/Lappy.png" alt="" />
           </div>
-          <div class="box">
+          <div class="box" data-aos="fade-left">
             <img src="./Assets/Images/igmmm.png" alt="" />
           </div>
         </div>
@@ -143,7 +144,7 @@
 
         <h1 class="sub-head">Skills and intrests</h1>
         <h3 class="sub-2">Designing</h3>
-        <div class="designing-container">
+        <div class="designing-container" data-aos="fade-right">
           <img src="./Assets/Figma.webp" alt="">
           <img src="./Assets/Adobe.png" alt="">
           <img src="./Assets/Canvaa.jpg" alt="">
@@ -153,7 +154,7 @@
         </div>
       </div>
       <h3 class="sub-2">Development</h3>
-      <div class="designing-container">
+      <div class="designing-container" data-aos="fade-left">
         <img src="./Assets/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png " alt="">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Node.js_logo_2015.svg/2560px-Node.js_logo_2015.svg.png"
@@ -177,7 +178,7 @@
         <div class="line"></div>
         Contact Me
       </h1>
-      <h1 class="sub-head">Let's Connect</h1>
+      <h1 class="sub-head" data-aos="zoom-out-right">Let's Connect</h1>
       <form action="" class="contact">
         <div class="input-container"><input type="text" name="" id="name" placeholder="Name">
           <input type="email" name="" id="email" placeholder="Email"></div>
@@ -192,6 +193,7 @@
     <h6>created with ❤️
       by me</h6>
   </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="./script.js"></script>
 </body>
 

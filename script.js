@@ -60,3 +60,5 @@ function sendEmail() {
       alert("Email sending failed!");
   });
 }
+
+AOS.init();
